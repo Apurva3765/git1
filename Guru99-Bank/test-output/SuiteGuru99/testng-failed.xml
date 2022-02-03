@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteGuru99]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="chromeTest(failed)">
+    <classes>
+      <class name="Guru99_BankTest.LoginPageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="loginWithCorrectCredentials"/>
+          <include name="lauchURL"/>
+          <include name="logOut"/>
+          <include name="closeBrowser"/>
+          <include name="initializePOMclasses"/>
+        </methods>
+      </class> <!-- Guru99_BankTest.LoginPageTest -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" name="MozilaTest(failed)">
+    <classes>
+      <class name="Guru99_BankTest.LoginPageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="loginWithCorrectCredentials"/>
+          <include name="lauchURL"/>
+          <include name="logOut"/>
+          <include name="closeBrowser"/>
+          <include name="initializePOMclasses"/>
+        </methods>
+      </class> <!-- Guru99_BankTest.LoginPageTest -->
+    </classes>
+  </test> <!-- MozilaTest(failed) -->
+</suite> <!-- Failed suite [SuiteGuru99] -->
